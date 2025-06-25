@@ -40,14 +40,15 @@ A Raspberry Pi-based embedded system that monitors for intrusions using IR senso
 
 ### 1. Clone the Repo
 
-```bash
+
 git clone https://github.com/tanikella-kapil/vehicle-theft-detection-using-raspberry-pi.git
 cd vehicle-theft-detection-using-raspberry-pi
 
-**### 2.install dependancies**
+
+### 2.install dependancies
 pip install pyserial RPi.GPIO
 
-3. Connect Hardware
+### 3. Connect Hardware
 Ensure:
 
 IR sensor is connected to a GPIO pin with interrupt capability (e.g., GPIO17).
@@ -56,4 +57,9 @@ GSM module is connected to UART pins (TX/RX).
 
 Power supply is stable (especially for GSM module).
 
-4. Run the Script
+### 4. Run the Script
+sudo python3 intrusion_alert.py
+### 5. sample output 
+ALERT: Intrusion Detected!
+Time: 2024-06-25 15:30:21
+
