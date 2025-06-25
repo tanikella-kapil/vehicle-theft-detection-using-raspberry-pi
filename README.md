@@ -43,7 +43,8 @@ A Raspberry Pi-based embedded system that monitors for intrusions using IR senso
 ```bash
 git clone https://github.com/tanikella-kapil/vehicle-theft-detection-using-raspberry-pi.git
 cd vehicle-theft-detection-using-raspberry-pi
-### install dependancies
+
+**### 2.install dependancies**
 pip install pyserial RPi.GPIO
 
 3. Connect Hardware
